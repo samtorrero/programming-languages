@@ -15,11 +15,11 @@ maxlist [] = error "error"
 maxlist [e] = e
 maxlist (h:t) = max h (maxlist t)
 
---factorial
-fact 0 = 1
-fact x = x * (fact (x-1))
+-- --factorial
+-- fact 0 = 1
+-- fact x = x * (fact (x-1))
 
---ultimos n numeros de una lista
-let lastt [e] = length [e]
-let ultimos n = n
-ultimos 
+-- --ultimos n numeros de una lista
+-- let lastt [e] = length [e]
+-- let ultimos n = n
+-- ultimos 
